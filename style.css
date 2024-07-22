@@ -1,0 +1,82 @@
+
+ .margin{
+  margin-top:100px;
+  background-color: transparent !important;
+ }
+  .header{
+    background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(/images/header-bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+  }
+  .sticky {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+  
+}
+ 
+.majestic-tabs .nav-link.active::after {
+  content: "";
+  border-bottom: 2px solid #757575;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  border-radius: 3px 3px 0 0;
+  
+ }
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color:black;
+  background-color: #989393 !important;
+  padding:10px !important;
+}
+.majestic-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+  border: 2px solid transparent;
+  color: #757575!important;
+  background-color: transparent !important;
+}
+ button.nav-link{
+  color:black;
+ }
+ button.nav-link:hover{
+  color:black;
+ }
+ .size{
+  height: 60px;
+  width:  60px ;
+ }
+
+
+ .text-primary {
+  color: #FFA15C !important;
+}
+.carousel-control-next-icon {
+  background-image: url(/images/svg/next.svg);
+  height: 40px;
+  width: 40px;
+}
+.carousel-control-prev-icon {
+  background-image: url(/images/svg/prev.svg);
+  height: 40px;
+  width: 40px;
+}
+.backdrop-filter{
+  
+  backdrop-filter: blur(10px);
+
+  }
+
+.filter{
+  filter: brightness(70%)
+
+}
+.btn-arrow:focus,.btn-arrow:active {
+  border-color: rgba(255, 161, 92, 0.4)!important;
+  border-width:medium!important;
+  border-radius:0!important;
+}
+
+
