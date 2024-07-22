@@ -54,12 +54,12 @@
   color: #FFA15C !important;
 }
 .carousel-control-next-icon {
-  background-image: url(/images/svg/next.svg);
+  background-image: url(images/svg/next.svg);
   height: 40px;
   width: 40px;
 }
 .carousel-control-prev-icon {
-  background-image: url(/images/svg/prev.svg);
+  background-image: url(images/svg/prev.svg);
   height: 40px;
   width: 40px;
 }
