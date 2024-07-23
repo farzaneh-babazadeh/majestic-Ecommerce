@@ -3,7 +3,11 @@
        background-color: white;
         }
 
-        /* .sellers{
-          position: absolute;
-          left: 20px;
-        } */
+         .object-position{
+          object-fit: none; /* Do not scale the image */
+          object-position: center; /* Center the image within the element */
+          width: 100%;
+          height: 800px;
+          margin-bottom: 1rem;
+         }
+    
